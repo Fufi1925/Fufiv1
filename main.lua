@@ -20,10 +20,10 @@ local Camera = Workspace.CurrentCamera
 _G.AIM = {
 	Enabled = false,
 	Part = "HumanoidRootPart",
-	Strength = 0.22,
+	Strength = 1,
 	FOV = 150,
 	MinDistance = 200,
-	Prediction = 0.14,
+	Prediction = 1,
 	WallCheck = true,
 	DeathCheck = true
 }
